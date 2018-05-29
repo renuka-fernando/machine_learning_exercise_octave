@@ -20,8 +20,8 @@ S = zeros(n);
 %       number of examples).
 %
 
-
-
+covarianceMat = X' * X / m;
+[U S V] = svd(covarianceMat);
 
 
 
