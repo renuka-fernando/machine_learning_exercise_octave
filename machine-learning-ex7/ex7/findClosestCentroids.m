@@ -21,11 +21,14 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
-
-
-
-
-
+for i = 1:size(X, 1) % for all examples
+  sqrDistance = zeros(K, 1); % square distance between x and centroids(k)
+  for k = 1:K
+    sqrDistance(k) = sum((X(i,:) - centroids(k,:)) .^ 2);
+  end
+  [minValue, mink] = min(sqrDistance);
+  idx(i) = mink;
+end
 
 % =============================================================
 
