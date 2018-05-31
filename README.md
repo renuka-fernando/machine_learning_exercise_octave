@@ -6,3 +6,5 @@ Here are some examples for learning machine learning using octave programming la
 - Exercise 3: Implement one-vs-all Logistic Regression (for Multi-class Classification), Predictions using Neural Networks
 - Exercise 4: Learn Nueral Network, Feedforward Cost Function, Backpropagration
 - Exercise 5: Regularazied Linear Regression with Bias vs Varience, Learning Curve, Cross Validation Curve
+- Exercise 6: Support Vector Machines with Gaussian Kernel
+- Exercise 7: K-means Clustering (find closest centroid and compute centroids) and Principal Component Analysis
