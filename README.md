@@ -8,4 +8,4 @@ Here are some examples for learning machine learning using octave programming la
 - Exercise 5: Regularazied Linear Regression with Bias vs Varience, Learning Curve, Cross Validation Curve
 - Exercise 6: Support Vector Machines with Gaussian Kernel
 - Exercise 7: K-means Clustering (find closest centroid and compute centroids) and Principal Component Analysis
-- Exercise 8: Anomaly Detection of servers in a network with a Gaussian Model.
+- Exercise 8: Anomaly Detection of servers in a network with a Gaussian Model. Select threshold using labled cross validation set. Recommender System with collaborative filtering learning algorithm for a movie rating dataset. 
