@@ -44,8 +44,8 @@ J = 0.5 * sum(sum((X * Theta' .* R - Y .* R) .^ 2));
 
 
 
-
-
+X_grad = (X * Theta' .* R - Y .* R) * Theta;
+Theta_grad = (X * Theta' .* R - Y .* R)' * X;
 
 
 
